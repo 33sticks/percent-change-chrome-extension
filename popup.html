@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Percentage Change Calculator</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            width: 300px;
+            padding: 20px;
+        }
+        input {
+            width: calc(100% - 24px);
+            padding: 10px;
+            margin: 5px 0;
+        }
+        button {
+            width: 100%;
+            padding: 10px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+        .result {
+            margin-top: 20px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h1>Percentage Change Calculator</h1>
+    <input type="number" id="value1" placeholder="Enter Value 1">
+    <input type="number" id="value2" placeholder="Enter Value 2">
+    <button id="calculateButton">Calculate</button>
+    <div class="result" id="result"></div>
+
+    <script src="popup.js"></script>
+</body>
+</html>
