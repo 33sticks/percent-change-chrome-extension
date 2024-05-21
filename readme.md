@@ -18,7 +18,7 @@ To install and use the Percentage Change Calculator extension in developer mode,
 1. **Clone the repository:**
 
     ```bash
-    git clone https://github.com/33sticks/percent-change-chrome-extension
+    git clone https://github.com/33sticks/percent-change-chrome-extension.git
     cd percentage-change-calculator
     ```
 
